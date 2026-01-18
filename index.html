@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>jokenpow</title>
+    
+</head>
+<body>
+    <div class="container">
+        <h1>Jokenpô!</h1>
+
+        <div class="buttons">
+            <button id="rock" onclick="playHuman('rock')">&#9994;&#127995;</button>
+            <button id="paper" onclick="playHuman('paper')">&#128400;&#127995;</button>
+            <button id="scissors" onclick="playHuman('scissors')">&#9996;&#127995;</button>
+        </div>
+        <p class="result"></p>
+
+        <p class="your-score">Sua pontuação <span id="score">0</span></p>
+        <p class="computer-score">pontuação do computador <span id="scoreComputer">0</span></p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
